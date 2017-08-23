@@ -1,9 +1,6 @@
 package application;
 
 import avl.AVLTree;
-import avl.Node;
-
-import java.util.LinkedList;
 
 public class MainAVL {
     public static void main(String[] args) {

@@ -29,7 +29,7 @@ public class LinkedList<T> {
     }
 
 
-    //Removes first occurrence of the element in the list
+    //Removes only the first occurrence of the element in the list
     public void remove(T element) {
         if (contains(element)) {
             ListIterator<T> iterator = new ListIterator<>(this);
@@ -57,7 +57,7 @@ public class LinkedList<T> {
         return false;
     }
 
-    private Node unlink(Node node) {
+    private Node unlink(Node<T> node) {
         if (size == 1) {
             size = 0;
             first = new Node<>();

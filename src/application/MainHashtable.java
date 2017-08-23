@@ -1,9 +1,6 @@
 package application;
 
-
 import hashtable.HashTable;
-
-import java.util.LinkedList;
 
 public class MainHashtable {
 

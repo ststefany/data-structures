@@ -3,8 +3,8 @@ package linkedlist;
 class Node<T> {
 
     private T element;
-    private Node previous;
-    private Node next;
+    private Node<T> previous;
+    private Node<T> next;
 
     Node(T element, Node<T> previous, Node<T> next) {
         this.element = element;
@@ -20,23 +20,23 @@ class Node<T> {
         return element;
     }
 
-    Node getPrevious() {
-        return previous;
-    }
-
-    Node getNext() {
-        return next;
-    }
-
     public void setElement(T element) {
         this.element = element;
     }
 
-    public void setPrevious(Node previous) {
+    Node<T> getPrevious() {
+        return previous;
+    }
+
+    public void setPrevious(Node<T> previous) {
         this.previous = previous;
     }
 
-    public void setNext(Node next) {
+    Node<T> getNext() {
+        return next;
+    }
+
+    public void setNext(Node<T> next) {
         this.next = next;
     }
 

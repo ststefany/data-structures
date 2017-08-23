@@ -13,7 +13,7 @@ public class ListIterator<T> {
     }
 
     public T next() {
-        T next = (T) (current.getElement());
+        T next = current.getElement();
         current = current.getNext();
         return next;
 

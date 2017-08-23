@@ -2,8 +2,6 @@ package application;
 
 import linkedlist.LinkedList;
 
-import java.util.TreeMap;
-
 public class MainLinkedList {
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<>();
